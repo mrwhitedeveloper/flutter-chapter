@@ -13,14 +13,15 @@ install using following command
 flutter pub add image_picker
 ```
 ## Android Permission in AndroidManifest.xml
+```xml    
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
+```
 
 
 ## Example
-```
+```dart
 import 'dart:io';
 
 import 'package:flutter/material.dart';
