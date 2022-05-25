@@ -6,7 +6,8 @@ Camera and Gallery access using image_picker plugin.
 image_picker
 
 install using following command
-```flutter pub add image_picker
+```sh
+flutter pub add image_picker
 ```
 ## Android Permission in AndroidManifest.xml
     <uses-permission android:name="android.permission.CAMERA" />
